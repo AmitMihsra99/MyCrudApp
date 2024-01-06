@@ -1,0 +1,50 @@
+.adduser{
+    width: 40%;   
+    box-shadow:3px 8px 8px 8px cyan;
+    border-radius:25px;
+    margin: 80px auto;
+    padding:50px;
+}
+.adduser h3{
+    color: blue;
+}
+.inputGroup input{
+  
+    width:80%;
+    display:flex;
+    justify-content:column;
+    justify-content:center;
+    margin-bottom: 10px;
+    padding:10px;
+    outline: none;
+    border-radius: 25px;
+    background-color:whitesmoke;
+    font-weight: 500;
+    color: black;
+}
+
+.inputGroup label{
+    margin-bottom: 10px;
+    color: blueviolet;
+}
+
+.adduserForm{
+    margin-top: 20px;
+}
+
+.adduserForm.inputGroup button{
+
+    border:0;
+    outline:none;
+    background-color: blueviolet;
+    color:whitesmoke;
+    padding:14px;
+    margin:8px;
+    margin-top:20px;
+    border-radius:25px;
+    &:hover{
+      background-color:brown;
+      color:cyan;   
+    }
+
+}
