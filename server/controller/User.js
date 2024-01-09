@@ -85,7 +85,7 @@ const userdelete =async(req,res)=>{
        await User.findByIdAndDelete(id);
       res.status(200).json({mag:"User Deleted Successfully"});
        
-
+   
    }
    catch(error){
     res.status(500).json({error:error});
